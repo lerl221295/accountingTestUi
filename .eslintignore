@@ -1,0 +1,5 @@
+node_modules
+scripts
+**/__tests__
+config/envs
+config/docker

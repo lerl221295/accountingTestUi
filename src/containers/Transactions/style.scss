@@ -1,0 +1,25 @@
+.home {
+
+  .notification-alert-container {
+    bottom: 30px;
+    left: 50%;
+    min-width: 500px;
+    max-width: 500px;
+    margin-left: -250px;
+    position: fixed;
+    z-index: 1;
+  }
+
+  /* CSS Transitions */
+  .fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+  }
+
+}
+

@@ -1,0 +1,27 @@
+/*
+* En este archivo van estilos y clases globales a
+* toda la App.
+*/
+
+// VARS:
+$background-color: #f0f0f0;
+
+// BOOTSTRAP:
+@import "~bootstrap/scss/bootstrap";
+// FONT-AWESOME:
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+//Font
+/*@font-face {
+  font-family: 'DIN';
+  src: url('./fonts/DIN/DIN-RG__.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+body {
+  background-color: $background-color;
+  margin: 0;
+  padding-top: 1.5em;
+}
